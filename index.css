@@ -1,0 +1,72 @@
+
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+    line-height: 1.6;
+    color: #444;
+    background-image: url('bg\ web.webp'); 
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+   
+}
+
+header {
+    
+    color: #ffffff;
+    padding: 1.2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+   
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px; 
+    border-radius: 8px; 
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 140px;
+    left: 30%
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
